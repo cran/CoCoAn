@@ -1,0 +1,3 @@
+CAIV                     Function to perform correspondence analysis with
+                         (or without) respect to instrumental variables
+CAIV.plot                Biplot or Triplot after using the CAIV function
