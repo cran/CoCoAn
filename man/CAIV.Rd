@@ -33,7 +33,6 @@ CAIV(L, E=diag(1, dim(L)[1], dim(L)[1]), normE=TRUE)
 }
 \value{
   A list with components
-  If it is a LIST, use
   \item{ev}{a vector containing eigenvalues}
   \item{B}{coefficients of variables of \code{E} (only in constrained analysis)}
   \item{D}{covariance matrix between external variables and row scores
@@ -64,6 +63,6 @@ CAIV(L)
 CAIV(t(L))
 ##canonical correspondence analysis
 E <-matrix(c(1.5,2.3,2,1.6,0.9,0.8,1.2,1.5),4,2)
-CAIV(L,E)
+CAIV(L,E)}
 
 \keyword{multivariate}
